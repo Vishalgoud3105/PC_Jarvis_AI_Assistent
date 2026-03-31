@@ -1,0 +1,61 @@
+﻿# --- AI & GENERATIVE MODELS ---
+groq==0.13.0
+
+# --- VOICE & AUDIO PROCESSING ---
+pyttsx3==2.99
+SpeechRecognition==3.14.1
+pyaudio
+pygame==2.6.1
+
+# --- SYSTEM & UTILITIES ---
+requests==2.32.3
+pyautogui==0.9.54
+numpy==2.2.2
+feedparser==6.0.11
+
+
+
+
+
+
+
+
+
+# # --- AI & GENERATIVE MODELS ---
+# groq==0.13.0
+
+# # --- VOICE & AUDIO PROCESSING ---
+# pyttsx3==2.99
+# SpeechRecognition==3.14.1
+# pyaudio
+# pygame==2.6.1
+
+# # --- SYSTEM & UTILITIES ---
+# python-dotenv==1.0.1
+# requests==2.32.3
+# pyautogui==0.9.54
+# numpy==2.2.2
+
+
+
+
+
+
+
+
+
+# # --- AI & GENERATIVE MODELS ---
+# google-genai==1.10.0
+# # google-generativeai is now deprecated, use google-genai instead
+
+# # --- VOICE & AUDIO PROCESSING ---
+# pyttsx3==2.99
+# SpeechRecognition==3.14.1
+# pyaudio
+# pygame==2.6.1
+
+# # --- SYSTEM & UTILITIES ---
+# python-dotenv==1.0.1
+# requests==2.32.3
+# pyautogui==0.9.54
+# numpy==2.2.2
