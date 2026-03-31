@@ -1,6 +1,6 @@
-# Jarvis — Personal AI Voice Assistant
+# 🧠PC Jarvis AI Assistant🤖
 
-> **Version 9.0** · Windows · Python 3.11 · SAPI5 TTS · Groq LLM · NewsAPI + RSS
+> **Version 1.9.0** · Windows · Python 3.11 · SAPI5 TTS · Groq LLM · NewsAPI + RSS
 
 A fully offline-capable, voice-controlled personal assistant built for Windows. Jarvis wakes on a double clap, greets you, reads a categorized AI-curated news briefing, and lets you control your PC workflow with finger snaps and voice keywords — all hands-free.
 
