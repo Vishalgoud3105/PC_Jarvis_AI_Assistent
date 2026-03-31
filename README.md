@@ -190,7 +190,7 @@ The mic only opens **after** each TTS sentence finishes and stays open for 1.5 s
 
 ---
 
-## Roadmap
+## Future Enhancements
 
 - [ ] Send WhatsApp/Gmail messages via voice
 - [ ] Full PC control handover to AI (open apps, manage files)
