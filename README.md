@@ -213,3 +213,25 @@ MIT License — do whatever you want with it, just don't sell it as-is.
 - [NewsAPI](https://newsapi.org) for the morning news feed
 - [BroCode](https://www.youtube.com/@BroCodez) for the personality inspiration
 - [pyttsx3](https://github.com/nateshmbhat/pyttsx3) for offline TTS on Windows
+
+---
+
+<div align="center">
+
+**Built with 💻 and ☕ by Vishal Goud**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](http://www.linkedin.com/in/vishalgoud3105)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/Vishalgoud3105)
+[![Portfolio](https://img.shields.io/badge/Portfolio-orange?style=flat)](https://vishalgoud3105.github.io/Portfolio/)
+
+---
+
+### 📬 Contact
+
+This repository is **private**. For collaboration inquiries, demo requests, or questions:
+
+📧 **Email**: [vishalgoud3105@gmail.com](mailto:vishalgoud3105@gmail.com)  
+💼 **LinkedIn**: [vishalgoud](http://www.linkedin.com/in/vishalgoud3105)  
+🌐 **Portfolio**: [vishalgoud3105.github.io](https://vishalgoud3105.github.io/Portfolio/)
+
+⭐ **Interested in this project? Reach out!** ⭐
