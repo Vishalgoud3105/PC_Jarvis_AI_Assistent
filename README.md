@@ -179,7 +179,7 @@ The mic only opens **after** each TTS sentence finishes and stays open for 1.5 s
 |---|---|---|
 | Boot | Double clap | Starts Jarvis |
 | Wake | Say "wake up" | Greeting + auto news |
-| Skip boot | Say "skip" | Jump straight to snapby |
+| Skip boot | Say "skip" | Jump straight to snapby mode |
 | WORK | Snap + "work" | Opens work apps |
 | CHILL | Snap + "chill" | Opens Entertainment sites |
 | MESSAGES | Snap + "messages" | Opens chat apps |
