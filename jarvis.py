@@ -16,11 +16,11 @@ import json
 import feedparser
 from groq import Groq
 
-PROJECT_DIR = r"C:\Users\ASUS\Documents\Wakeup_Jarvis"
+PROJECT_DIR = r"your_project_dir_path"
 
 # ── API KEYS ─────────────────────────────────────────────────
-NEWS_API_KEY   = ""
-GROQ_API_KEY   = ""
+NEWS_API_KEY = "your_newsapi_key_here"
+GROQ_API_KEY = "your_groq_key_here"
 # ─────────────────────────────────────────────────────────────
 
 if not NEWS_API_KEY or NEWS_API_KEY == "PASTE_YOUR_NEW_NEWSAPI_KEY_HERE":
@@ -37,10 +37,10 @@ print(f"\n--> Welcome, {USER_NAME}. Jarvis is initializing...\n")
 
 client = Groq(api_key=GROQ_API_KEY)
 
-CHROME_EXE_PATH       = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
+CHROME_EXE_PATH       = r"your_chrome.exe_path"
 CHROME_WORK_PROFILE   = "Default"
-CHROME_KUSHAL_PROFILE = "Profile 10"
-CHROME_ALT_PROFILE    = "Profile 1"
+CHROME_PROFILE_1      = "Profile 1"
+CHROME_PROFILE_2      = "Profile 2"
 
 pygame.mixer.init()
 
@@ -810,7 +810,7 @@ def open_task_group(mode):
 
         import subprocess as sp
 
-        VSCODE_PATH    = r"C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\Code.exe".lower()
+        VSCODE_PATH    = r"your_vscode.exe_path".lower()
         protected_pids = {str(os.getpid())}
 
         wmic_result = sp.run(
@@ -888,8 +888,8 @@ def open_task_group(mode):
 
     if mode == "work":
         speak("Alright, let's get back to work sir.")
-        vscode = r"C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\Code.exe"
-        claude = r"C:\Users\ASUS\AppData\Local\AnthropicClaude\claude.exe"
+        vscode = r"your_vscode.exe_path"
+        claude = r"your_claude.exe_path"
         if os.path.exists(vscode): subprocess.Popen([vscode])
         if os.path.exists(claude): subprocess.Popen([claude])
         os.system("start whatsapp:")
@@ -899,7 +899,7 @@ def open_task_group(mode):
 
     elif mode == "chill":
         speak("Yeah sir, let's chill.")
-        launch_chrome("https://www.youtube.com/", CHROME_KUSHAL_PROFILE)
+        launch_chrome("https://www.youtube.com/", CHROME_PROFILE_1)
         sites = [
             "https://animesuge.cz/",
             "https://toonstream.dad/home/",
@@ -907,7 +907,7 @@ def open_task_group(mode):
             "https://flixer.sh/"
         ]
         for site in sites:
-            launch_chrome(site, CHROME_ALT_PROFILE)
+            launch_chrome(site, CHROME_PROFILE_2)
 
         speak("Enjoy sir. Triple clap anytime to exit chill mode and minimize everything.")
         chill_mode_acoustic_guard()
