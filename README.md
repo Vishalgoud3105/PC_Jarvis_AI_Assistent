@@ -49,7 +49,7 @@ Say "that's all for today"  →  Kill all apps and close everything
 | Keyword | Action |
 |---|---|
 | **WORK** | Opens VSCode, Claude desktop, WhatsApp, Gemini, Gmail, new Chrome tab |
-| **CHILL** | Opens YouTube (personal profile), AnimeSuge, ToonStream, FlixerSH |
+| **CHILL** | Opens YouTube (personal profile), Entertainment sites (Anime, Movies, Webseries) |
 | **MESSAGES** | Opens Instagram, WhatsApp |
 | **BREAK** | Minimizes all windows (Win+D) |
 | **TODAY** / "that's all for today" | Kills Chrome, WhatsApp, Claude; protects VSCode; says goodbye |
@@ -181,7 +181,7 @@ The mic only opens **after** each TTS sentence finishes and stays open for 1.5 s
 | Wake | Say "wake up" | Greeting + auto news |
 | Skip boot | Say "skip" | Jump straight to snapby |
 | WORK | Snap + "work" | Opens work apps |
-| CHILL | Snap + "chill" | Opens entertainment sites |
+| CHILL | Snap + "chill" | Opens Entertainment sites |
 | MESSAGES | Snap + "messages" | Opens chat apps |
 | BREAK | Snap + "break" | Minimizes everything |
 | TODAY | Snap + "today" | Kills all apps, goodbye |
@@ -195,6 +195,7 @@ The mic only opens **after** each TTS sentence finishes and stays open for 1.5 s
 
 ## Future Enhancements
 
+- [ ] Compatiable for Mac OS
 - [ ] Send WhatsApp/Gmail messages via voice
 - [ ] Full PC control handover to AI (open apps, manage files)
 - [ ] Calendar and reminder integration
@@ -206,7 +207,7 @@ The mic only opens **after** each TTS sentence finishes and stays open for 1.5 s
 
 ## License
 
-MIT License — do whatever you want with it, just don't sell it as-is.
+MIT Licensed
 
 ---
 
