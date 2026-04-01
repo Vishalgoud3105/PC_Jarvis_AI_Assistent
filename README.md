@@ -113,7 +113,9 @@ GROQ_API_KEY = "your_groq_key_here"
 - **NewsAPI** — free tier at [newsapi.org](https://newsapi.org) (100 requests/day)
 - **Groq** — free tier at [console.groq.com](https://console.groq.com) (generous daily token limit)
 
-> **Security note:** Never commit your API keys to a public repo. Use environment variables or a `.env` file with `python-dotenv` for production use.
+> **Note:** You can change from "llama-4-scout-17b-16e-instruct" model to any other free or paid model but as of now scout is the most powerful interpretation of context understanding with hight i/o tokens at free of cost.
+
+> **Security Note:** Never commit your API keys to a public repo. Use environment variables or a `.env` file with `python-dotenv` for production use.
 
 ### 5. Add boot audio
 
